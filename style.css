@@ -1,0 +1,652 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+img{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+
+
+.main-header{
+    display: flex;
+    
+    background-color: white;
+    width: 100%;
+    
+}
+
+
+
+/* .inputbox1{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border: 0.5px solid black;
+    margin-top: 60px; 
+} */
+
+
+
+
+.motors{
+    text-decoration: none;
+    color: black; 
+    margin-left: 9px;
+    margin-top: 19px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.motors:hover{
+    color: rgb(0, 110, 255);
+    
+}
+
+.property:hover{
+     color: #3a77ff;
+}
+
+
+
+.no-class1{
+    margin-left: 11px;
+    margin-top: 8px;
+    display: flex; 
+    
+}
+
+.no-class2{
+    margin-left: 11px;
+    margin-top: 8px;
+    display: flex;  
+    background: linear-gradient(to top, rgb(245, 245, 245), rgba(211, 228, 236, 0.781));
+    border-radius: 100%;
+}
+
+
+.no-class3{
+    margin-left: 11px;
+    margin-top: 8px;
+    display: flex;    
+}
+
+.property-work{
+    margin-top: 22px;
+    margin-left: 27px;
+    
+}
+
+
+.property{
+    margin-left: 7px;
+   
+}
+
+._5120d4ee{
+    background: linear-gradient(to top, rgb(245, 245, 245), rgba(211, 228, 236, 0.781)); 
+    border-radius: 30%;
+}
+
+
+/* header mei icons wala kaam close   */
+
+
+
+/* header mei inputbox k kaam */
+.inputfields{
+    margin-left: 32px;
+}
+
+
+.inputbox{
+    height: 38px;
+    width: 250px;
+    /* border: 1px solid gray;  */
+    padding-left: 30px;
+    margin-left: 33px;
+}
+
+
+.location-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-family: 'Font Awesome 5 Free';
+    content: '\f3c5'; /* Unicode for the location icon */
+    font-weight: 900;
+    color: #555;
+    
+} 
+
+
+.input-container svg {
+    position: absolute;
+    top: 45%;
+    left: 40px;
+    transform: translateY(-50%);
+    fill: #131212;
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.input-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+.maha{
+    margin-left: 10px;
+    height: 34px;
+    width: 350px;
+    display: flex;
+    padding-left: 20px;
+}
+
+/* searchbar ka kaam inputfield ka */
+.search-container {
+    position: relative;
+    width: 400px;
+    /* margin: 50px auto; */
+    margin-left: 30px;
+    
+}
+
+.search-container .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #888;
+    background-color: rgb(61, 75, 69);
+    color: aliceblue;
+    padding: 10px;
+}
+
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px 40px 10px 10px; 
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    
+}
+/* serachbar work done */
+
+
+
+/* msg icon work */
+.msg{
+    gap: 200px;
+    margin: auto;
+    
+}
+
+.bell{
+    /* margin: auto; */
+    /* gap: 300px; */
+    margin-top: 12px;
+    
+}
+
+
+.icons{
+    display: flex;
+    /* gap: 200px; */
+    margin-left: 20px;
+}
+
+
+.man{
+    margin-top: 10px;
+}
+
+.sell{
+    border-top: 5px solid #23e5db;
+    border-bottom: 5px solid #23e5db; 
+    border-left: 5px solid #ffce32;
+    border-right: 5px solid  #3a77ff;
+    border-radius: 45%;
+    height: 100px;
+    color: rgb(63, 85, 71);
+    width: 100px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 0px;
+    padding: 15px; 
+} 
+/* header work close */
+
+
+/* body work start */
+
+
+/* all categories styling */
+h6{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: rgb(21, 34, 21);
+}
+
+/* body mei all-category heading styling */
+.all-cat{
+    display: flex;
+
+}
+
+/* dropdown icon */
+.dropdown{
+    margin-top: 6px;
+    margin-left: 0px;
+}
+
+
+/* all catogories work */
+.cat-one{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cat-one:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+.cat-two{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.cat-two:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+.cat-three{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.cat-three:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+
+.cat-four{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cat-four:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+
+.cat-five{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.cat-five:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+
+.cat-six{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cat-six:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+
+.cat-seven{
+    color:rgb(52, 58, 52);
+    margin-left: 20px;
+    margin-top: 12px;
+    font-weight: 100;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.cat-seven:hover{
+    color: rgb(17, 180, 159);
+}
+
+
+
+/* olx car ad k neechy wali all catogories ki styling */
+.second-ac{
+    color: rgb(61, 63, 61);
+    font-family: Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+.MOBILE-PIC{
+    border-radius: 50%;
+}
+
+.mob{
+    
+    margin-left: 29px;
+    text-decoration: none;
+    margin-top: 90px;
+    font-size: small;
+    color: #3d3b3b;
+    font-weight: 600;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    /* margin-top: 20px; */
+    display: flex;
+}
+
+
+.prduct{
+    margin-top: 20px;
+    display: flex;
+}
+
+.Gaari-pic{
+    border-radius: 50%;
+}
+
+.all-products{
+    display: flex;
+}
+
+.products{
+    display: flex;
+}
+
+
+.mobile{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+a{
+    padding-left: 25px;
+    text-decoration: none;
+    color: #131212;
+}
+
+
+p{
+    font-family: serif;
+    color: #131212;
+    font-weight: 900;
+}
+
+
+.vehicle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+
+
+.product-2{
+    padding-left: 21px;
+}
+
+
+.house{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+p{
+    font-family: Serif;
+    color: #131212;
+    font-weight: 900;
+    
+}
+
+.product-3{
+    padding-left: 21px;
+}
+
+
+.rent{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+
+
+.sale{
+    margin-left: -15px;
+}
+
+.sale-2{
+    margin-top: 20px;
+    margin-left: -70px;
+}
+
+
+.product-4{
+    padding-left: 21px;
+}
+
+.sale-3{
+    margin-top: 40px;
+    margin-left: -60px;
+}
+
+.bike{
+    padding-left: 10px;
+}
+
+.product-5{
+    padding-left: 21px;
+}
+
+.agriculture{
+    margin-top: 40px;
+    margin-left: -85px;
+}
+
+.product-6{
+      padding-left: 21px;
+}
+
+ 
+.product-hen{
+    margin-top: -20px;
+    
+} 
+
+.product-bench{
+    margin-top: -20px;
+    padding-left: 21px;
+}
+
+.decor{
+    margin-top: 20px;
+    margin-left: -85px;
+}
+
+.beauty{
+    margin-top: 20px;
+    margin-left: -60px;
+}
+
+.product-suit{
+    padding-left: 21px;
+    margin-top: -20px;
+}
+
+
+.fashion{
+    margin-left: -10px;
+}
+
+
+.product-kids{
+    margin-top: -20px;
+    padding-left: 21px;
+}
+
+.writ-kid{
+      padding-left: 13px;
+}
+
+/* .inline{
+    display: flex;
+} */
+
+.cards{
+    display: flex;
+}
+
+
+.mp{
+    margin-top: 40px;
+}
+
+
+
+.sec-last-ad-img{
+    display: flex;
+}
+
+
+
+.three-icons{
+    margin-left: 245px;
+    margin-top: 30px;
+}
+
+
+
+._244c016a{
+background-color: rgba(0, 47, 52, .2);
+    height: 4.6rem;
+    margin: 40px 30px;
+    width: .2rem; 
+}
+
+
+
+/* .sell{
+    border: 4px solid ;
+    border-radius: 40%;
+    color: rgb(63, 85, 71);
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-image: linear-gradient(8deg, rgb(40, 190, 145), rgb(38, 168, 219), yellow) 1;
+    
+}   */
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .search-container {
+        flex-direction: column;
+    }
+
+    .search-container input[type="search"] {
+        width: 100%;
+    }
+
+    .search-container button {
+        width: 100%;
+    }
+
+    .main-header{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+    .products{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
